@@ -1,0 +1,9 @@
+<templates>
+
+    <t t-name="practice.root"> 
+        <div class="alert alert-success mt-3 p-3">
+            <h2>✅ ¡Hola Mundo con Owl desde XML Separado!</h2>
+        </div>
+    </t>
+
+</templates>

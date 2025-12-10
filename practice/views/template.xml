@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="hello_root_page">
+            <t t-call="web.layout">
+            <t t-call-assets="web.assets_frontend" />
+                
+                <div class="oe_structure">
+                    <div class="container mt-4">
+                        <h1>Hello, Odoo World!</h1>
+                        <!-- Aquí se montará el componente Owl -->
+                        <div id="hello_mount"></div> 
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</odoo>
